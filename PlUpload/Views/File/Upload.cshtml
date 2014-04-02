@@ -5,6 +5,15 @@
     <link type="text/css" rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/themes/smoothness/jquery-ui.min.css" media="screen" />
     <link type="text/css" rel="stylesheet" href="@Url.Content("~/Scripts/plupload/jquery.ui.plupload/css/jquery.ui.plupload.css")" media="screen" />
 
+<!--Fix styles in the upload box. -->
+<style>
+    *, *:before, *:after {
+        -webkit-box-sizing: content-box;
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+    }
+</style>
+
 <h2>Upload</h2>
 
 <div id="uploader">
